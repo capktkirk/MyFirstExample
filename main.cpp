@@ -14,7 +14,8 @@ int main()
     int x,y;
 
     cin >> x >> y;
-    cout << x + y << endl;
+    cout << "Numbers added : " << x + y << endl;
+    cout << "Numbers divided : " << x / y << endl;
 
     return 0;
 }
