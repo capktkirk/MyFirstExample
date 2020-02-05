@@ -2,3 +2,10 @@ language: cpp
 os: linux
   script:
     - make
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: 3210f37da462178ff0b17535aff8c06e4a4ee8e2
+  keep_history: true
+  on:
+    branch: master
