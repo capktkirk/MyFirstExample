@@ -1,7 +1,9 @@
 language: cpp
 os: linux
+install: pip install --user cpplint
   script:
     - make
+    - cpplint *.cpp
 deploy:
   on:
     branch: master
